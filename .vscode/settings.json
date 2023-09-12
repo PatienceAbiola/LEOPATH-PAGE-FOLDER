@@ -1,0 +1,10 @@
+{
+    "git.showInlineOpenFileAction": false,
+    "files.autoSave": "onFocusChange",
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.suggest.showInlineDetails": false,
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "debug.inlineValues": "off",
+    "debug.showInlineBreakpointCandidates": false
+}

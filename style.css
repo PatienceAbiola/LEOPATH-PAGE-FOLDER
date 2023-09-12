@@ -1,0 +1,196 @@
+body{
+    font: 15px/ 1.5/ Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: auto;
+    background-color: lightgray;
+    border-top: 20px;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height:38px;
+    background:orange;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+header{
+    background: lightseagreen;
+    color: whitesmoke;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;  
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0%;
+}
+
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: green ;
+    font-weight:bold;
+}
+
+#showcase{
+    min-height:300px;
+    background: url(showcase223.jpeg) no-repeat ;
+    background-size: cover;
+    background-position: center center; 
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#showcase p{
+    font-size: 20px ;
+    color:black;
+}
+
+#newsletter{
+    padding:15px;
+    color:aliceblue;
+    background: lightseagreen;
+}
+
+#newsletter h1{
+    float:left;
+    margin-top: 15px;
+}
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height:25px;
+    width:250px;
+}
+
+
+#boxes {
+    display: flex; /* Use flexbox to align the boxes perfectly */
+    justify-content: space-between; /* Space them evenly */
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#boxes .box {
+    float:left;
+    width:30%;
+    text-align:center;
+    padding:15px;
+    width: calc(50% - 10px); /* Adjust the width and consider margins */
+    padding: 15px;
+    margin: 5px; /* Add margin to create spacing between boxes */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+@media (max-width: 768px) {
+    #boxes .box {
+        width: 70%; /* Two boxes per row on smaller screens calc(50% - 10px) */
+    }
+}
+
+/* Media query for screens 480px wide or smaller */
+@media (max-width: 480px) {
+    #boxes .box {
+        width: 100%; /* One box per row on very small screens */
+    }
+}
+
+#boxes .box img{
+    width:90px;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+.dark{
+    padding:15px;
+    background:black ;
+    color: white ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#main-col{
+    float:left;
+    width:60%;
+}
+
+
+
+footer{
+    padding:20px;
+    margin-top: 20px;
+    color: white ;
+    background-color: grey ;
+}
+
+ul#services li{
+    list-style:none;
+    padding: 20px  ;
+    margin:5px ;
+    border:1px;
+    background: white;
+}
+
+aside#sidebar {
+ width: 20%;
+ padding: 5px;
+}
+
+
+
